@@ -50,3 +50,37 @@ html,body{
     border: 2px solid black;
     border-radius: 5px;
 }
+
+
+.text{
+    margin-top: 40px;
+}
+
+
+
+
+.button {
+    font-size: 20px;
+    padding: 15px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: skyblue;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e53935;
+}
+
+.button:active {
+background-color: thistle;
+}
+
+body{
+  background-image: url("https://as1.ftcdn.net/v2/jpg/06/21/25/92/1000_F_621259213_LYBEjxigssrZi7e1xTFtYZdw3T9it1An.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
